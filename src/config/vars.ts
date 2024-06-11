@@ -5,6 +5,7 @@ interface Vars {
   database_uri: string;
   port: number;
   release_mode: string;
+  secret: string;
 }
 
 function vars() {
@@ -12,6 +13,7 @@ function vars() {
     database_uri: process.env.DATABASE_URI as string,
     port: parseInt(process.env.PORT as string) || 4001,
     release_mode: process.env.RELEASE_MODE as string,
+    secret: process.env.SECRET as string,
   };
 
   return vars;
