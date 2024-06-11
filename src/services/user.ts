@@ -19,6 +19,15 @@ const userService = {
 
     return registerUser;
   },
+  async login(user: User) {
+    const userExist = await checkUser(user.email);
+
+    if (!userExist) {
+      return;
+    }
+
+    return userExist;
+  },
 };
 
 export default userService;
