@@ -1,6 +1,0 @@
-{"level": "debug", "date": "2024-06-11 09:30:06", "message": "database successfully connected"}
-{"level": "debug", "date": "2024-06-11 09:30:06", "message": "http://localhost:4001"}
-{"level": "debug", "date": "2024-06-11 09:31:25", "message": "database successfully connected"}
-{"level": "debug", "date": "2024-06-11 09:31:25", "message": "http://localhost:4001"}
-{"level": "debug", "date": "2024-06-11 09:31:27", "message": "auth/login - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IndpbGlhbi5vbGl2ZWlyYWN0dEBnbWFpbC5jb20iLCJpYXQiOjE3MTgxMDkwODcsImV4cCI6MTcxODExMjY4N30.7bIXDhp6uqZrcnpf-KBkLJ-6TzysrmpCTu3g6UJMjfc"}
-{"level": "error", "date": "2024-06-11 09:31:38", "message": "auth/login - password: incorrect"}
