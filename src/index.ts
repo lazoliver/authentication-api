@@ -8,6 +8,7 @@ const { database_uri, port } = vars();
 
 const app = express();
 
+app.use(express.json());
 app.use(router);
 
 db(database_uri)
